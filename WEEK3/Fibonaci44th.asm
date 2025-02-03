@@ -1,8 +1,8 @@
 @ Step used to converted C into ARM Assembly
-@ Visit https://godbolt.org/
-@ Place your C code to the left-hand box of page
-@ Select compiler, using Arm 32-bit GCC 14.2.0
-@ After successful compilation, the ARM Assembly will appear on the right-hand box
+@ - Visit https://godbolt.org/
+@ - Place your C code to the left-hand box of page
+@ - Select compiler, using Arm 32-bit GCC 14.2.0
+@ - After successful compilation, the ARM Assembly will appear on the right-hand box
 
 main:
         push    {r7}            @ Save r7 (frame pointer) to the stack
